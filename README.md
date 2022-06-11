@@ -1,2 +1,2 @@
-# DMRS
-Interpretable multi-label classification via diverse rule sets
+# CORSET
+Interpretable multi-label classification via concise rule sets
