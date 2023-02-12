@@ -25,7 +25,7 @@ preferred-citation:
     given-names: "Aristides"
     orcid: ""    
   doi: 10.48550/arXiv.2210.01533
-  journal: "IEEE International Conference on Data Mining"
+  booktitle: "IEEE International Conference on Data Mining"
   month: 11
   start: 71 # First page number
   end: 80 # Last page number
