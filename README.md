@@ -4,7 +4,7 @@
 
 The rules learned by CORSET are optimized for conciseness, interpretability, and (of course) predictive performance. 
 
-If you find the software or the paper useful, please consider citoing our work:
+If you find the software or the paper useful, please consider citing our work:
 
 ``` bibtex
 @inproceedings{ciaperoni2022concise,
