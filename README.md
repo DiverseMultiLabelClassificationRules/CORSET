@@ -4,6 +4,17 @@
 
 The rules learned by CORSET are optimized for conciseness, interpretability, and (of course) predictive performance. 
 
+If you find the software or the paper useful, please consider citoing our work:
+
+``` bibtex
+@inproceedings{ciaperoni2022concise,
+  title={Concise and interpretable multi-label rule sets},
+  author={Ciaperoni, Martino and Xiao, Han and Gionis, Aristides},
+  booktitle={IEEE International Conference on Data Mining},
+  year={2022}
+}
+```
+
 ## Environment setup
 
 **warning**: tested only on macOS Monterey and Python 3.8.15
@@ -79,13 +90,3 @@ You may check the following directories for more examples:
 - `./notebooks`
 - `./scripts`
 
-## Cite the corresponding research article
-
-``` bibtex
-@inproceedings{ciaperoni2022concise,
-  title={Concise and interpretable multi-label rule sets},
-  author={Ciaperoni, Martino and Xiao, Han and Gionis, Aristides},
-  booktitle={IEEE International Conference on Data Mining},
-  year={2022}
-}
-```
