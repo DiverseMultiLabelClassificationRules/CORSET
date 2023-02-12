@@ -60,7 +60,7 @@ evaluator = Evaluator()
 perf = evaluator.report(pred_Y, ds.tst_Y)
 print(perf)
 # you should get something like:
-OrderedDict([('hamming_accuracy', 0.9889457523029682), ('subset_accuracy', 0.6484135107471852), ('micro_precision', 0.7616300036062027), ('micro_recall', 0.8716467189434586), ('micro_f1', 0.812933025404157), ('macro_precision', 0.8894680208607824), ('macro_recall', 0.5024357158149877), ('macro_f1', 0.4691918958698777)])
+# OrderedDict([('hamming_accuracy', 0.9889457523029682), ('subset_accuracy', 0.6484135107471852), ('micro_precision', 0.7616300036062027), ('micro_recall', 0.8716467189434586), ('micro_f1', 0.812933025404157), ('macro_precision', 0.8894680208607824), ('macro_recall', 0.5024357158149877), ('macro_f1', 0.4691918958698777)])
 ```
 
 ### Faster heuristics
@@ -68,7 +68,7 @@ OrderedDict([('hamming_accuracy', 0.9889457523029682), ('subset_accuracy', 0.648
 We provide a few alternatives to the original CORSET algorithm, aiming at scalability:
 
 - `corset.greedy.GreedyCFTPDivMaxV2`: which only does the 1st round of greedy picking, instead of both rounds
-- `corset.greedy.GreedyCFTPDivMaxV3`: an extension of `corset.greedy.GreedyCFTPDivMaxV2` but sqrt is applied on the the quality term.
+- `corset.greedy.GreedyCFTPDivMaxV3`: an extension of `corset.greedy.GreedyCFTPDivMaxV2` but sqrt is applied to the quality term.
 
 Note that approximation guarantee is lost in these cases.
 

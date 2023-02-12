@@ -13,7 +13,7 @@ directive_defaults['binding'] = True
 # Cython.Compiler.Options.annotate = True
 extensions = [
     Extension(
-        'dmrs.samplers.dfs', ["dmrs/samplers/dfs.pyx"],
+        'corset.samplers.dfs', ["corset/samplers/dfs.pyx"],
         define_macros=[('CYTHON_TRACE', '1')],
         include_dirs=[np.get_include()],
         extra_compile_args=["-std=c++11", "-O3"],
@@ -22,7 +22,7 @@ extensions = [
     )
 ]
 setup(
-    name='dmrs',
+    name='corset',
     ext_modules=cythonize(extensions),
     # zip_safe=False,
 

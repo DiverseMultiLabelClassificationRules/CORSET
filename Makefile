@@ -1,16 +1,16 @@
-build: setup.py dmrs/samplers/dfs.pyx
+build: setup.py corset/samplers/dfs.pyx
 	CC=gcc CXX=g++ python setup.py build_ext --inplace
 ann:
-	cython -a dmrs/samplers/dfs.pyx
+	cython -a corset/samplers/dfs.pyx
 clean:
 	rm -rf build
-	rm dmrs/samplers/*.so
+	rm corset/samplers/*.so
 
 
 test:
-	pytest dmrs/tests
+	pytest corset/tests
 
-prof: dmrs/greedy/divmax_v2.py
+prof: corset/greedy/divmax_v2.py
 	kernprof -l greedy_demo.py
 	python -m line_profiler greedy_demo.py.lprof    
 
