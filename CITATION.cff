@@ -25,7 +25,8 @@ preferred-citation:
     given-names: "Aristides"
     orcid: ""    
   doi: 10.1109/ICDM54844.2022.00017
-  journal: "IEEE International Conference on Data Mining"
+  conference:
+      name: "IEEE International Conference on Data Mining"
   month: 11
   start: 71 # First page number
   end: 80 # Last page number
