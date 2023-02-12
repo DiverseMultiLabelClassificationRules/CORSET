@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Xiao"
+  given-names: "Han"
+  orcid: "https://orcid.org/0000-0003-3529-083X"
+- family-names: "Ciaperoni"
+  given-names: "Martino"
+  orcid: ""
+title: "CORSET"
+version: 2.0.4
+doi: 
+date-released: 2023-02-12
+url: "https://github.com/github/linguist"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Ciaperoni"
+    given-names: "Martino"
+    orcid: ""
+  - family-names: "Xiao"
+    given-names: "Han"
+    orcid: "https://orcid.org/0000-0003-3529-083X"
+  - family-names: "Gionis"
+    given-names: "Aristides"
+    orcid: ""    
+  doi: 10.48550/arXiv.2210.01533
+  journal: "IEEE International Conference on Data Mining"
+  month: 11
+  start: 71 # First page number
+  end: 80 # Last page number
+  title: "Concise and interpretable multi-label rule sets"
+  issue: 
+  volume: 
+  year: 2022

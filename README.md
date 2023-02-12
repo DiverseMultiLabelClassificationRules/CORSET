@@ -79,7 +79,7 @@ You may check the following directories for more examples:
 - `./notebooks`
 - `./scripts`
 
-## Cite this work
+## Cite the corresponding research article
 
 ``` bibtex
 @inproceedings{ciaperoni2022concise,
