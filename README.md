@@ -1,6 +1,6 @@
 # CORSET: concise and interpretable multi-label rule sets
 
-[CORSET](https://arxiv.org/pdf/2210.01533.pdf) is an algorithm to learn a set of classification rules for multi-label classification datasets.
+[CORSET](https://arxiv.org/pdf/2210.01533.pdf) is an algorithm to learn a set of classification rules for multi-label classification problems.
 
 The rules learned by CORSET are optimized for conciseness, interpretability, and (of course) predictive performance. 
 
